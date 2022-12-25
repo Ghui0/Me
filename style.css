@@ -1,0 +1,51 @@
+:root {
+  --fs-thbtns: clamp(8px, 0.6vmax + 2px, 80px);
+  --fs-ssmall: clamp(12px, 1vmax + 1px, 120px);
+}
+
+.body.dark {
+  background-color: black;
+}
+
+.body.dark .info {
+    color: white;
+}
+
+.body.white {
+  background-color: white;
+}
+
+.info {
+  position: relative;
+}
+
+.png {
+    float: left;
+    margin-left: 100px;
+}
+
+.hd {
+    text-align: center
+}
+
+.inf {
+    text-align: center;
+    font-size: var(--fs-ssmall);
+}
+
+.dt-btn,
+.lt-btn {
+  position: fixed;
+  bottom: 1%;
+  aspect-ratio: 3 / 1;
+  height: auto;
+  font-size: var(--fs-thbtns);
+}
+
+.lt-btn {
+  left: 7%;
+}
+
+.dt-btn {
+  left: 1%;
+}
